@@ -1,0 +1,70 @@
+*{
+    padding: 0px;
+    margin: 0px;
+box-sizing: border-box;
+}
+body{
+    background-image: url(gadget.img.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.container{
+    padding-top: 200px;
+    max-width: 200px;
+    justify-content: center;
+    margin: 0px auto;
+    display: flex table-column;
+}
+.Username{
+    padding: 13px;
+    border-radius: 15px;
+margin-bottom: 10px;
+border-style: none; 
+background-color: rgba(255,255,255,0.5);
+padding-right: 50px;
+width: 270px;
+}
+.password{
+    padding: 13px;
+    border-radius: 15px;
+margin-bottom: 10px;
+border-style: none;
+background-color: rgba(255,255,255,0.5);
+padding-right: 50px;
+margin-top: 5px;
+width: 270px;
+}
+.container button{
+    padding: 13px;
+    border-radius: 15px;
+margin-bottom: 10px;
+border-style: none;
+background-color: #2a2a2a;
+padding-right: 50px;
+width: 270px;
+margin-top: 5px;
+color: white;
+text-align: center;
+}
+.container-2{
+ list-style: none;
+margin-right:40px;
+text-decoration: none;
+margin-top: 50px;
+white-space: nowrap;
+ }
+ form .container-2 a{
+text-decoration: none; 
+color:white;
+}
+form .container-2 .one{
+display: flex;
+gap: 30px;    
+}
+form .container-2 .two{
+display: flex;
+gap: 20px; 
+}
+form .container-2 p{
+color: white;
+}
